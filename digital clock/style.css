@@ -1,0 +1,65 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(diig.jpg) ;
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 3.5%;
+   
+   font-size: 50px;
+}
+#abc{
+    color: #fff;
+    background-color: rgb(3, 24, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #2e94e3;
+    border-radius: 5px;
+-webkit-box-reflect:below 1px linear-gradient(transparent,rgba(224, 8, 8, 0.212));
+
+ 
+}
+#abc:hover{
+    background-color:#2e94e3 ;
+    box-shadow: 0 0 30px #2e94e3;
+}
+
+.date{
+    font-weight: 600;
+    font-size: 20px;
+text-align:center ;
+letter-spacing: 3px; }
+ .time{
+    display: flex;
+    font-size: 60px;
+justify-content: center;
+align-items: center;
+
+}
+.time span:not(:last-child){
+    position: relative;
+    margin: 0 6px;
+font-weight: 600;
+text-align: center;
+letter-spacing: 3px;
+}
+.time span:last-child{
+    background-color: #2e94e3;
+    font-size: 30px;
+font-weight: 600;
+text-transform: uppercase;
+margin-top: 10px;
+padding: 0 5px;
+border-radius: 3px; 
+
+}  
+
+
+
+
+
